@@ -77,3 +77,15 @@ please visits the "Sample Data" folder in the Git Repo
     |  bill_cyc  |     INT    | Bill cycle day of month  |
     | cr_lmt_amt |     INT    | Credit limit amount      |
     |   card_no  |     INT    | Dummy cerdit card number |
+
+* File 4 : **cc_txn.csv**
+  * Description : Credit card transaction log
+  * Size: 3223075 rows
+
+    | Field Name |  Data Type |         Description      |
+    |:-----------|:-----------|:-------------------------|
+    |  mcc       |   STRING   |    Merchant Category     |
+    | txn_dt     |  TIMESTAMP | Transaction Timestamp    |
+    | user_id    |     INT    | Dummy user id            |
+    |  txn_amt   |     INT    | Transaction amount       |
+    |  card_no   |     INT    | Dummy cerdit card number |
