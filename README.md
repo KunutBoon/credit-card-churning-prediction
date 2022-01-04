@@ -48,7 +48,7 @@ please visits the "Sample Data" folder in the Git Repo
   * Description : Output for selected user ids
   * Size: 494 rows
 
-    | Field Name |  Data Type |      Description     |
-    |:----------:|:----------:|:--------------------:|
-    |  user_id   |     INT    |      Dummy user id   |
-    |   Label    |     INT    | 0-Active, 1-Inactive |
+  | Field Name |  Data Type |      Description     |
+  |:----------:|:----------:|:--------------------:|
+  |  user_id   |     INT    |      Dummy user id   |
+  |   Label    |     INT    | 0-Active, 1-Inactive |
