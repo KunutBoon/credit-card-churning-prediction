@@ -42,7 +42,7 @@ Data avaiable for this project are provided as csv files, which are describe bel
 
 `df.head(10)`
 
-please visits the "Sample Data" folder in this Git Repo
+please visits the "Sample Data" folder in the Git Repo
 
 * File 1 : **y_train.csv**
   * Description : Output for selected user ids
