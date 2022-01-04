@@ -110,3 +110,6 @@ please visits the "Sample Data" folder in the Git Repo
     |  mm        |  INT       |   Month of year                              |
     |  amt_in    |   FLOAT    |   Amount of money inbound                    |
     |  amt_out   |   FLOAT    |   Amount of money outbound                   |
+
+<a name='5'></a>
+## Approaches to the solution
