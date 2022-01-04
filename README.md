@@ -117,4 +117,4 @@ For the ML model development, Data Scientist usally follows the Data Science pro
 * **Data Understanding** : Understanding basic details of each provided data for further usage, such as its format, its size, associated data type, its meaning, etc.
 * **Basic Data Assessment** : Doing the basic assessment on each data to better understanding the current snapshot of the data, such as looking at sample rows of each data, identifying data format, identifying missing values, etc.
 * **Data Aggregation & Feature Engineering** : Aggregating data from various data source with the prior dataset along with develop some new features which could represent useful insights for classifying churners.
-* **Exploratory Data Analysis** : Analyzing data to investigate and summarize their main characteristics
+* **Exploratory Data Analysis** : Analyzing data to investigate and summarize their main characteristics before concluding any assumptions and insights found using statistical and visualization toold
