@@ -113,4 +113,5 @@ please visits the "Sample Data" folder in the Git Repo
 
 <a name='5'></a>
 ## Approaching to the solution
-For the ML model development, Data Scientist usally follows the Data Science processes as a systematic framework to analyze, visualize, and model the huge amount of data.
+For the ML model development, Data Scientist usally follows the Data Science process as a systematic framework to analyze, visualize, and model the huge amount of data. All of my current working approaches on this project are also follows this Data Science process to systematically develop the Ml model. Each working approach could be illustrated as follows
+* **Data Understanding** : 
