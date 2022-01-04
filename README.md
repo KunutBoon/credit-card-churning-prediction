@@ -34,4 +34,4 @@ The purpose of this project is to illustrate my understanding in Data Science al
 
 <a name='3'></a>
 ## Business Problem
-Credit Card Churning is customer behavior which defined by inactivity of all credit cards in each customer for 3 consecutive months. 
+Credit Card Churning is customer behavior which defined by inactivity of all credit cards in each user for 3 consecutive months. This problem is typically solved by using the predictive ML models to classify credit card user who might stop using credit cards using his credit transaction, credit payment, card usage, user demographic, etc. The Credit Card Churning problen for this project, same as typical solution, is also required a Data Scientist to **build a predictive model and predict customer credit card churning signals for the next three months**.
