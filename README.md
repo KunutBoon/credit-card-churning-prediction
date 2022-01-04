@@ -15,9 +15,7 @@ The complete code used in this project can be download via provided <a id="raw-u
 - [Insights from Data](#7)
 - [Conclusion](#8)
 - [Project File Structure](#9)
-- [Contributing to This Template](#10)
-- [Contact](#11)
-- [License](#12)
+- [Contact](#10)
 
 <a name='1'></a>
 ## Project Description
@@ -121,5 +119,13 @@ For the ML model development, Data Scientist usally follows the Data Science pro
   * Univariate Analysis : Analyzing each variable in order to describe all data values contained within it by determining the data distribution, calculating statistics, detecting outliers, etc.
   * Bivariate Analysis : Analyzing two variables together in order to finds some pattern and relationship between these variables by calculating pairwise correlation, visualizing data distribution seperated by category, etc.
 * **Data Preprocessing** : Processing the data into the usable format for the Machine Learning model to train on. The process also refers to manipulating the raw data in the way which turns it into signals by using insights found from previous steps
-* **Model Training** : Training the Machine Learning model using the data from previous step by trying to fit data with various models, tuning the hyperparameters on each model using cross-validation and random search, and selecting the model which provides highest average recall score on holdout cross-validation set.
+* **Model Training** : Training the Machine Learning model using the data from previous step by trying to fit data with various models, tuning the hyperparameters on each model using cross-validation and random search, and selecting the model which provides highest average recall score on hold-out cross validation set.
 * **Model Prediction** : Predicting the unseen data by repeating all steps involving with Data Preprocessing and then predicting the data using selected model
+
+<a name='6'></a>
+## Model Performance
+Evaluation metrics validating model prediction performance on each hold-out cross validation set for each type of Machine Learning model are illustrated below
+* **Logistic Regression**
+  |       Accuracy     |      Precision    |       Recall      |         F1        |
+  |:------------------:|:-----------------:|:-----------------:|:-----------------:|
+  | 0.9942 +/- 0.0140  | 0.9887 +/- 0.0271 | 1.0000 +/- 0.0000 | 0.9943 +/- 0.0137 |
