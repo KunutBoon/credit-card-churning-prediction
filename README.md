@@ -10,7 +10,7 @@ The complete code used in this project can be download via provided <a id="raw-u
 - [Tooling](#2)
 - [Business Problem](#3)
 - [Data Description](#4)
-- [Approaches to the solution](#5)
+- [Approaching to the solution](#5)
 - [Model Performance](#6)
 - [Insights from Data](#7)
 - [Conclusion](#8)
@@ -112,4 +112,5 @@ please visits the "Sample Data" folder in the Git Repo
     |  amt_out   |   FLOAT    |   Amount of money outbound                   |
 
 <a name='5'></a>
-## Approaches to the solution
+## Approaching to the solution
+For the ML model development, Data Scientist usally follows the Data Science processes as a systematic framework to analyze, visualize, and model the huge amount of data.
