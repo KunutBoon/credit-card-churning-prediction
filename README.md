@@ -52,3 +52,17 @@ please visits the "Sample Data" folder in the Git Repo
     |:----------:|:----------:|:--------------------:|
     |  user_id   |     INT    |      Dummy user id   |
     |   Label    |     INT    | 0-Active, 1-Inactive |
+
+* File 2 : **demo.csv**
+  * Description : Personal information of customers
+  * Size: 52762 rows
+
+    |             Field Name           |  Data Type |      Description     |
+    |:--------------------------------:|:----------:|:--------------------:|
+    |               user_id            |     INT    |      Dummy user id   |
+    |         account_start_date       | TIMESTAMP  | First account start date |
+    |              birth_year          |     INT    |  Birth year  |
+    |                gender            |   STRING   |  F-Female, M-Male  |
+    |            marital_status        |     INT    |  1-Single, 2-Married, 3-Divorce/widow  |
+    |     family_income_segment_code   |     INT    |    Family income segment in ordinal scale (1 as lowest income segment)   |
+    |  individual_income_segment_code  |     INT    |  Individual income segment in ordinal scale (1 as lowest income segment) |
