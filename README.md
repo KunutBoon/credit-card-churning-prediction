@@ -114,4 +114,7 @@ please visits the "Sample Data" folder in the Git Repo
 <a name='5'></a>
 ## Approaching to the solution
 For the ML model development, Data Scientist usally follows the Data Science process as a systematic framework to analyze, visualize, and model the huge amount of data. All of my current working approaches on this project are also follows this Data Science process to systematically develop the Ml model. Each working approach could be illustrated as follows
-* **Data Understanding** : Understand the details of data for further usage, such as its format, its size, associated data type, its meaning, etc.
+* **Data Understanding** : Understanding basic details of each provided data for further usage, such as its format, its size, associated data type, its meaning, etc.
+* **Basic Data Assessment** : Doing the basic assessment on each data to better understanding the current snapshot of the data, such as looking at sample rows of each data, identifying data format, identifying missing values, etc.
+* **Data Aggregation & Feature Engineering** : Aggregating data from various data source with the prior dataset along with develop some new features which could represent useful insights for classifying churners.
+* **Exploratory Data Analysis** : Analyzing data to investigate and summarize their main characteristics
