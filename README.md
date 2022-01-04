@@ -40,6 +40,8 @@ Credit Card Churning is customer behavior which defined by inactivity of all cre
 ## Data Description
 Data avaiable for this project are provided as csv files, which are describe below. For more detail on each data provided for this project together with sample of the data 
 
-         `df.head(10)`
+`df.head(10)`
 
 please visits the "Sample Data" folder in this Git Repo
+
+* File 1 : **y_train.csv**
