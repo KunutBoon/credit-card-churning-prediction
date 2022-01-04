@@ -155,3 +155,9 @@ Model which provide highest recall score on hold-out cross validation sets are i
   ![Feature Importance](Pictures/feature_importances.png)
 
   From the graph, the features which have highest impact on classifying churn customer are credit transaction (`max_txn` & `total_txn`). The features which have the second highest impact are customer saving balance (`max_sa_bal` & `avg_sa_bal`). Other features which also have high impact are including individual income, family income, merchant category, transaction amount (non-credit transaction), etc.
+* Insights from the data
+
+  * Max transaction spend by each customer
+
+
+  ![Max Txn](Pictures/max_txn.png)
