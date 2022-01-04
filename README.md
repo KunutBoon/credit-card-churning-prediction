@@ -99,3 +99,14 @@ please visits the "Sample Data" folder in the Git Repo
     |  user_id   |   INT      |    Dummy user id                             |
     |  mm        |  INT       |   Month of year                              |
     | max_sa_bal |   FLOAT    | Maximum saving account balance in the month  |
+
+* File 6 : **dtxn.csv**
+  * Description : Incoming and outgoing transaction aggregated by months (explude credit card transactions)
+  * Size: 490599 rows
+
+    | Field Name |  Data Type |          Description                         |
+    |:-----------|:-----------|:---------------------------------------------|
+    |  user_id   |   INT      |    Dummy user id                             |
+    |  mm        |  INT       |   Month of year                              |
+    |  amt_in    |   FLOAT    |   Amount of money inbound                    |
+    |  amt_out   |   FLOAT    |   Amount of money outbound                   |
