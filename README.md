@@ -173,4 +173,10 @@ Model which provide highest recall score on hold-out cross validation sets are i
 
   ![individual_income_segment_code](Pictures/individual_income_segment_code.png)
 
-    Credit card user with income segment 02 and 12-15 has a higher chance to churn compared with user in other income segment
+    Credit card user with income segment 02 and 12-15 has a higher chance to churn compared with user from other income segment
+
+  * Least spending category
+
+  ![individual_income_segment_code](Pictures/least_purchasing_category.png)
+
+    Credit card user with least spending in merchant `mcc_cat11`, `mcc_cat2`, and `mcc_cat6` has a higher chance to churn
