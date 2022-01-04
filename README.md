@@ -12,7 +12,7 @@ The complete code used in this project can be download via provided <a id="raw-u
 - [Data Description](#4)
 - [Approaching to the solution](#5)
 - [Model Performance](#6)
-- [Insights from Data](#7)
+- [Insights](#7)
 - [Conclusion](#8)
 - [Project File Structure](#9)
 - [Contact](#10)
@@ -145,3 +145,6 @@ Evaluation metrics validating model prediction performance on each hold-out cros
   |       Accuracy     |      Precision    |       Recall      |         F1        |
   |:------------------:|:-----------------:|:-----------------:|:-----------------:|
   | 0.9971 +/- 0.0114  | 0.9944 +/- 0.0218 | 1.0000 +/- 0.0000 | 0.9972 +/- 0.0110 |
+
+<a name='6'></a>
+## Insights
