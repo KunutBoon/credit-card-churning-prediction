@@ -148,3 +148,5 @@ Evaluation metrics validating model prediction performance on each hold-out cros
 
 <a name='6'></a>
 ## Insights
+* Inteperting the ML model
+  ![Feature Importance](Pictures/feature importance.png)
