@@ -120,4 +120,6 @@ For the ML model development, Data Scientist usally follows the Data Science pro
 * **Exploratory Data Analysis** : Analyzing data to investigate and summarize their main characteristics before concluding any assumptions and insights found using statistical and visualization toold
   * Univariate Analysis : Analyzing each variable in order to describe all data values contained within it by determining the data distribution, calculating statistics, detecting outliers, etc.
   * Bivariate Analysis : Analyzing two variables together in order to finds some pattern and relationship between these variables by calculating pairwise correlation, visualizing data distribution seperated by category, etc.
-* **Data Preprocessing** : Processing the data into the usable format for the Machine Learning model to train on. This process also refers to manipulating the raw data in the way which turns it into signals by using insights found from previous steps
+* **Data Preprocessing** : Processing the data into the usable format for the Machine Learning model to train on. The process also refers to manipulating the raw data in the way which turns it into signals by using insights found from previous steps
+* **Model Training** : Training the Machine Learning model using the data from previous step by trying to fit data with various models, tuning the hyperparameters on each model using cross-validation and random search, and selecting the model which provides highest average recall score on holdout cross-validation set.
+* **Model Prediction** : 
