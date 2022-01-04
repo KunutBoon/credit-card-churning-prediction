@@ -49,6 +49,6 @@ please visits the "Sample Data" folder in the Git Repo
   * Size: 494 rows
 
 &emsp;&emsp;&emsp;| Field Name |  Data Type |      Description     |
-&emsp;&emsp;&emsp;|:----------:|:----------:|:--------------------:|
-&emsp;&emsp;&emsp;|  user_id   |     INT    |      Dummy user id   |
-&emsp;&emsp;&emsp;|   Label    |     INT    | 0-Active, 1-Inactive |
+|:----------:|:----------:|:--------------------:|
+|  user_id   |     INT    |      Dummy user id   |
+|   Label    |     INT    | 0-Active, 1-Inactive |
