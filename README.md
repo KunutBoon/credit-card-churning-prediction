@@ -145,9 +145,13 @@ Evaluation metrics validating model prediction performance on each hold-out cros
   |       Accuracy     |      Precision    |       Recall      |         F1        |
   |:------------------:|:-----------------:|:-----------------:|:-----------------:|
   | 0.9971 +/- 0.0114  | 0.9944 +/- 0.0218 | 1.0000 +/- 0.0000 | 0.9972 +/- 0.0110 |
+  
+Model which provide highest recall score on hold-out cross validation sets are including Logistic Regression, Linear SVC, and XGBoost Classifier. For these models, the candidate models which provide highest scores across all metrics are inclusing Linear SVC and XGBoost Classifier, which we choose **XGBoost Classifier** as the best candidate model.
 
 <a name='6'></a>
 ## Insights
 * Inteperting the ML model
 
   ![Feature Importance](Pictures/feature_importances.png)
+
+  From the graph, the features which have highest impact on classifying churn customer are credit transaction (`max_txn` & `total_txn`). The features which have the second highest impact are customer saving balance (`max_sa_bal` & `avg_sa_bal`). Other features which also have high impact are including individual income, family income, merchant category, transaction amount (non-credit transaction), etc.
