@@ -40,7 +40,7 @@ Credit Card Churning is customer behavior which defined by inactivity of all cre
 ## Data Description
 Data avaiable for this project are provided as csv files, which are describe below. For more detail on each data provided for this project together with sample of the data 
 
-&emsp;&emsp;&emsp;`df.head(10)`
+&emsp;&emsp;`df.head(10)`
 
 please visits the "Sample Data" folder in the Git Repo
 
@@ -48,7 +48,7 @@ please visits the "Sample Data" folder in the Git Repo
   * Description : Output for selected user ids
   * Size: 494 rows
 
-| Field Name |  Data Type |      Description     |
-|:----------:|:----------:|:--------------------:|
-|  user_id   |     INT    |      Dummy user id   |
-|   Label    |     INT    | 0-Active, 1-Inactive |
+&emsp;&emsp;&emsp;| Field Name |  Data Type |      Description     |
+&emsp;&emsp;&emsp;|:----------:|:----------:|:--------------------:|
+&emsp;&emsp;&emsp;|  user_id   |     INT    |      Dummy user id   |
+&emsp;&emsp;&emsp;|   Label    |     INT    | 0-Active, 1-Inactive |
