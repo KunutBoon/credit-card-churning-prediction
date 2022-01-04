@@ -159,7 +159,18 @@ Model which provide highest recall score on hold-out cross validation sets are i
 
   * Max transaction spend by each customer
 
+  ![max_txn](Pictures/max_txn.png)
 
-  ![Max Txn](Pictures/max_txn.png)
+    Credit card user with maximum credit card payment amount greater than 175000 has a great chance to churn
 
-Credit card user, who has max credit transaction amount greater than 175000, has a high chance to churn
+  * Average saving balance account for each customer
+
+  ![avg_sa_bal](Pictures/avg_sa_bal.png)
+
+    Credit card user with average saving balance value greater than 500000 has a great chance to churn
+
+  * Individual income segment code
+
+  ![individual_income_segment_code](Pictures/individual_income_segment_code.png)
+
+    Credit card user with income segment 02 and 12-15 has a higher chance to churn compared with user in other income segment
