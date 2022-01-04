@@ -148,7 +148,7 @@ Evaluation metrics validating model prediction performance on each hold-out cros
   
 Model which provide highest recall score on hold-out cross validation sets are including Logistic Regression, Linear SVC, and XGBoost Classifier. For these models, the candidate models which provide highest scores across all metrics are inclusing Linear SVC and XGBoost Classifier, which we choose **XGBoost Classifier** as the best candidate model.
 
-<a name='6'></a>
+<a name='7'></a>
 ## Insights
 * Inteperting the ML model
 
@@ -180,3 +180,7 @@ Model which provide highest recall score on hold-out cross validation sets are i
   ![individual_income_segment_code](Pictures/least_purchasing_category.png)
 
     Credit card user with least spending in merchant `mcc_cat11`, `mcc_cat2`, and `mcc_cat6` has a higher chance to churn
+
+<a name='8'></a>
+## Conclusion
+problen description, classification model selected, results, insights
