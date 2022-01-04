@@ -21,7 +21,7 @@ The complete code used in this project can be download via provided <a id="raw-u
 
 <a name='1'></a>
 ## Project Description
-The purpose of this project is to illustrate my understanding in Data Science along with my traditional working approaches for developing the predictive ML model following the Data Science process. The problem definition of this project is related to Credit Card Churning, where predictive ML models are built to predict the customer who might stop using credit card for the next consecutive periods. Data provided for this project is in transactional format, which required full process of developing ML model starting from Data Integration to Model Development. Therefore, this project is able to shows my strong understanding and my skills on developing ML model.
+The purpose of this project is to **illustrate my understanding in Data Science along with my traditional working approaches for developing the predictive ML model** following the Data Science process. The problem definition of this project is related to Credit Card Churning, where predictive ML models are built to predict the customer who might stop using credit card for the next consecutive periods. Data provided for this project is in transactional format, which required full process of developing ML model starting from Data Integration to Model Development. Therefore, this project is able to shows my strong understanding and my skills on developing ML model.
 
 <a name='2'></a>
 ## Technologies
@@ -45,3 +45,10 @@ Data avaiable for this project are provided as csv files, which are describe bel
 please visits the "Sample Data" folder in this Git Repo
 
 * File 1 : **y_train.csv**
+  * Description : Output for selected user ids
+  * Size: 494 rows
+
+| Field Name |  Data Type |      Description     |
+|:----------:|:----------:|:--------------------:|
+|  user_id   |     INT    |      Dummy user id   |
+|   Label    |     INT    | 0-Active, 1-Inactive |
