@@ -161,3 +161,5 @@ Model which provide highest recall score on hold-out cross validation sets are i
 
 
   ![Max Txn](Pictures/max_txn.png)
+
+Credit card user, who has max credit transaction amount greater than 175000, has a high chance to churn
