@@ -89,3 +89,13 @@ please visits the "Sample Data" folder in the Git Repo
     | user_id    |     INT    | Dummy user id            |
     |  txn_amt   |     INT    | Transaction amount       |
     |  card_no   |     INT    | Dummy cerdit card number |
+
+* File 5 : **sa_bal.csv**
+  * Description : Saving account balance aggregated by months
+  * Size: 633144 rows
+
+    | Field Name |  Data Type |          Description                         |
+    |:-----------|:-----------|:---------------------------------------------|
+    |  user_id   |   INT      |    Dummy user id                             |
+    |  mm        |  INT       |   Month of year                              |
+    | max_sa_bal |   FLOAT    | Maximum saving account balance in the month  |
