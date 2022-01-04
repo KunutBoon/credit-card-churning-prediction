@@ -9,15 +9,15 @@ The complete code used in this project can be download via provided <a id="raw-u
 - [Project Description](#1)
 - [Tooling](#2)
 - [Business Problem](#3)
-- [Data Description](#3.5)
-- [Approaches to the solution](#4)
-- [Model Performance](#5)
-- [Insights from Data](#6)
-- [Conclusion](#7)
-- [Project File Structure](#8)
-- [Contributing to This Template](#9)
-- [Contact](#10)
-- [License](#11)
+- [Data Description](#4)
+- [Approaches to the solution](#5)
+- [Model Performance](#6)
+- [Insights from Data](#7)
+- [Conclusion](#8)
+- [Project File Structure](#9)
+- [Contributing to This Template](#10)
+- [Contact](#11)
+- [License](#12)
 
 <a name='1'></a>
 ## Project Description
@@ -34,4 +34,7 @@ The purpose of this project is to illustrate my understanding in Data Science al
 
 <a name='3'></a>
 ## Business Problem
-Credit Card Churning is customer behavior which defined by inactivity of all credit cards in each user for 3 consecutive months. This problem is typically solved by using the predictive ML models to classify credit card user who might stop using credit cards using his credit transaction, credit payment, card usage, user demographic, etc. The Credit Card Churning problen for this project, same as typical solution, is also required a Data Scientist to **build a predictive model and predict customer credit card churning signals for the next three months**.
+Credit Card Churning is customer behavior which defined by inactivity of all credit cards in each user for 3 consecutive months. This problem is typically solved by using the predictive ML models to classify credit card user who might stop using credit cards using his credit transaction, credit payment, card usage, user demographic, etc. The Credit Card Churning problen for this project, same as typical solution, is also required a Data Scientist to **build a predictive model and predict customer credit card churning signals for the next three months** given the list of customers, their demographics, financial history and miscellaneous data.
+
+<a name='4'></a>
+## Data Description
