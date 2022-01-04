@@ -66,3 +66,14 @@ please visits the "Sample Data" folder in the Git Repo
     |            marital_status        |     INT    |                   1-Single, 2-Married, 3-Divorce/widow                   |
     |     family_income_segment_code   |     INT    |    Family income segment in ordinal scale (1 as lowest income segment)   |
     |  individual_income_segment_code  |     INT    |  Individual income segment in ordinal scale (1 as lowest income segment) |
+
+* File 3 : **card_info.csv**
+  * Description : Credit card information
+  * Size: 60296 rows
+
+    | Field Name |  Data Type |         Description      |
+    |:-----------|:-----------|:-------------------------|
+    |  user_id   |     INT    |      Dummy user id       |
+    |  bill_cyc  |     INT    | Bill cycle day of month  |
+    | cr_lmt_amt |     INT    | Credit limit amount      |
+    |   card_no  |     INT    | Dummy cerdit card number |
