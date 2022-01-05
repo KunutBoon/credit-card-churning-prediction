@@ -183,4 +183,5 @@ Model which provide highest recall score on hold-out cross validation sets are i
 
 <a name='8'></a>
 ## Conclusion
+The problem definition for this project is to predict credit card churning signals for each customer for the next 3 consecutive months, which required Data Scientist to develop the predictive Machine Learning model. To solve this problem, we use Data Science process framework starting from Data Aggregation to Model Development, and try to fit the data with various types of ML model in order to find the best candidate of those models. The best model is **XGBoost Classifier** which provides the overall highest score acorss all evaluation metrics. We also discover
 problen description, classification model selected, results, insights
