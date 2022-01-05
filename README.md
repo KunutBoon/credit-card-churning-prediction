@@ -190,45 +190,23 @@ The problem definition for this project is to predict credit card churning signa
 ## Project File Structures
 The structure of project files are illustrated below
 ```
-├── .gitattributes                                  <- File which specified file type to keep tracking version for git lfs
-├── README.md                                       <- README file wich contains description of the project
+├── .gitattributes                            <- File which specified file type to keep tracking version for git lfs
+├── README.md                                 <- README file wich contains description of the project
 ├── Jupyter Notebook
 │   └── Credit Card Churning Prediction.ipynb       <- Jupyter notebook file which contains all of my code for implementing ML model
 ├── Pictures                                        <- Folder which contains some visualization from EDA and ML model intepretation
 ├── Prediction Results
-│   └── prediction_results.csv                      <- Prediction 
-│
-├── notebooks                <- Notebooks for analysis and testing
-│   ├── eda                  <- Notebooks for EDA
-│   │   └── example.ipynb    <- Example python notebook
-│   ├── features             <- Notebooks for generating and analysing features (1 per feature)
-│   ├── modelling            <- Notebooks for modelling
-│   └── preprocessing        <- Notebooks for Preprocessing 
-│
-├── scripts                  <- Standalone scripts
-│   ├── deploy               <- MLOps scripts for deployment (WIP)
-│   │   └── score.py         <- Scoring script
-│   ├── train                <- MLOps scripts for training
-│   │   ├── submit-train.py  <- Script for submitting a training run to Azure ML Service
-│   │   ├── submit-train-local.py <- Script for local training using Azure ML
-│   │   └── train.py         <- Example training script using the iris dataset
-│   ├── example.py           <- Example sctipt
-│   └── MLOps.ipynb          <- End to end MLOps example (To be refactored into the above)
-│
-├── src                      <- Code for use in this project.
-│   └── examplepackage       <- Example python package - place shared code in such a package
-│       ├── __init__.py      <- Python package initialisation
-│       ├── examplemodule.py <- Example module with functions and naming / commenting best practices
-│       ├── features.py      <- Feature engineering functionality
-│       ├── io.py            <- IO functionality
-│       └── pipeline.py      <- Pipeline functionality
-│
-└── tests                    <- Test cases (named after module)
-    ├── test_notebook.py     <- Example testing that Jupyter notebooks run without errors
-    ├── examplepackage       <- examplepackage tests
-        ├── examplemodule    <- examplemodule tests (1 file per method tested)
-        ├── features         <- features tests
-        ├── io               <- io tests
-        └── pipeline         <- pipeline tests
+│   └── prediction_results.csv                      <- Prediction results on unseen data
+├── Sample Data                               <- Data used in this project (sample only for first 10 rows)
+    ├── Credit card churning.pdf                    <- Full description of dataset
+    ├── card_info.csv                               <- Credit card information
+    ├── cc_txn.csv                                  <- Credit card transaction
+    ├── demo.csv                                    <- Customer demographic
+    ├── dtxn.csv                                    <- Income and outgoing transaction aggregated by months
+    ├── sa_bal.csv                                  <- Saving account balance aggregated by months
+    ├── y_test.csv                                  <- Unseen dataset for model prediction
+    └── y_train.csv                                 <- Training dataset for the problem
 ```
-<a name='9'></a>
+<a name='10'></a>
+## Contact
+If this project in my data science portfolio interest you, please send an email to :e-mail:kunut.boo@gmail.com for further discussion about work opportunities. More information on my :mag_right:[LINKEDIN](https://www.linkedin.com/in/kunut-boonyasartpun/)
