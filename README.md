@@ -183,5 +183,52 @@ Model which provide highest recall score on hold-out cross validation sets are i
 
 <a name='8'></a>
 ## Conclusion
-The problem definition for this project is to predict credit card churning signals for each customer for the next 3 consecutive months, which required Data Scientist to develop the predictive Machine Learning model. To solve this problem, we use Data Science process framework starting from Data Aggregation to Model Development, and try to fit the data with various types of ML model in order to find the best candidate of those models. The best model is **XGBoost Classifier** which provides the overall highest score acorss all evaluation metrics. We also discover
-problen description, classification model selected, results, insights
+The problem definition for this project is to predict credit card churning signals for each customer for the next 3 consecutive months, which required Data Scientist to develop the predictive Machine Learning model. To solve this problem, we use Data Science process framework starting from Data Aggregation to Model Development, and try to fit the data with various types of ML model in order to find the best candidate of those models. The **best model is XGBoost Classifier** which provides the overall highest score acorss all evaluation metrics. We also **discovered some insights from the data** by interpreting the classification behavior from the model and further analyze upon those findings.
+
+
+<a name='9'></a>
+## Project File Structures
+The structure of project files are illustrated below
+```
+├── .gitattributes                                  <- File which specified file type to keep tracking version for git lfs
+├── README.md                                       <- README file wich contains description of the project
+├── Jupyter Notebook
+│   └── Credit Card Churning Prediction.ipynb       <- Jupyter notebook file which contains all of my code for implementing ML model
+├── Pictures                                        <- Folder which contains some visualization from EDA and ML model intepretation
+├── Prediction Results
+│   └── prediction_results.csv                      <- Prediction 
+│
+├── notebooks                <- Notebooks for analysis and testing
+│   ├── eda                  <- Notebooks for EDA
+│   │   └── example.ipynb    <- Example python notebook
+│   ├── features             <- Notebooks for generating and analysing features (1 per feature)
+│   ├── modelling            <- Notebooks for modelling
+│   └── preprocessing        <- Notebooks for Preprocessing 
+│
+├── scripts                  <- Standalone scripts
+│   ├── deploy               <- MLOps scripts for deployment (WIP)
+│   │   └── score.py         <- Scoring script
+│   ├── train                <- MLOps scripts for training
+│   │   ├── submit-train.py  <- Script for submitting a training run to Azure ML Service
+│   │   ├── submit-train-local.py <- Script for local training using Azure ML
+│   │   └── train.py         <- Example training script using the iris dataset
+│   ├── example.py           <- Example sctipt
+│   └── MLOps.ipynb          <- End to end MLOps example (To be refactored into the above)
+│
+├── src                      <- Code for use in this project.
+│   └── examplepackage       <- Example python package - place shared code in such a package
+│       ├── __init__.py      <- Python package initialisation
+│       ├── examplemodule.py <- Example module with functions and naming / commenting best practices
+│       ├── features.py      <- Feature engineering functionality
+│       ├── io.py            <- IO functionality
+│       └── pipeline.py      <- Pipeline functionality
+│
+└── tests                    <- Test cases (named after module)
+    ├── test_notebook.py     <- Example testing that Jupyter notebooks run without errors
+    ├── examplepackage       <- examplepackage tests
+        ├── examplemodule    <- examplemodule tests (1 file per method tested)
+        ├── features         <- features tests
+        ├── io               <- io tests
+        └── pipeline         <- pipeline tests
+```
+<a name='9'></a>
